@@ -1,0 +1,31 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Modèle de staging pour les commandes de la base MySQL."
+    columns:
+      - name: order_id
+        description: "L'identifiant unique de la commande."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        description: "L'identifiant du client ayant passé la commande."
+        tests:
+          - not_null
+
+      - name: ordered_at
+        description: "La date et l'heure auxquelles la commande a été passée."
+
+      - name: store_id
+        description: "L'identifiant du magasin où l'achat a été effectué."
+
+      - name: subtotal
+        description: "Montant de la commande hors taxes."
+
+      - name: tax_paid
+        description: "Montant des taxes payées sur la commande."
+
+      - name: order_total
+        description: "Montant total de la commande (TTC)."
