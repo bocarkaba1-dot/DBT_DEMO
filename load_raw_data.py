@@ -7,7 +7,7 @@ username = "root"
 password = "KABAa&992544"
 host = "localhost"
 port = 3306
-database = "dbt_demo"
+database = "my_dbt_db"
 
 # On créée la connexion vers la base de données.
 DATABASE_URI = f'mysql+pymysql://{username}:{password}@{host}:{port}/{database}'

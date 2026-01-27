@@ -1,0 +1,10 @@
+projet_dbt_sall:
+  outputs:
+    dev:
+      type: mysql
+      host: localhost
+      user: root
+      password: KABAa&992544
+      port: 3306
+      schema: dbt_demo
+  target: dev
