@@ -15,6 +15,6 @@ __pycache__/
 Thumbs.db
 .vscode/
 
-# === Sécurité (Optionnel) ===
-# Si tu ne veux pas que ton script de chargement soit public
-# load_raw_data.py
+# === Sécurité ===
+.env
+load_raw_data.py
