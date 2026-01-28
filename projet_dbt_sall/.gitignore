@@ -18,5 +18,3 @@ Thumbs.db
 # === Sécurité (Activée !) ===
 .env
 **/.env
-load_raw_data.py
-notebook.ipynb
